@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Formulario Pericial</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="container">
+<h1>Formulario de Evaluación</h1>
+<form id="evalForm">
+<label>Fecha de evaluación:<input type="date" name="fecha" required /></label>
+<label>Carátula de la causa:<input type="text" name="caratula" required /></label>
+<label>Número de expediente:<input type="text" name="expediente" required /></label>
+<label>Nombre y apellido del peritado:<input type="text" name="nombre" required /></label>
+<label>DNI:<input type="text" name="dni" required /></label>
+<label>Edad actual:<input type="number" name="edad" required /></label>
+<label>Mano hábil:<input type="text" name="mano" required /></label>
+<label>Talla y peso:<input type="text" name="talla_peso" required /></label>
+<label>Ocupación:<input type="text" name="ocupacion" required /></label>
+<label>Antecedentes de importancia:<input type="text" name="antecedentes" required /></label>
+<label>Relato de los hechos:<textarea name="relato" required></textarea></label>
+<label>Estudios solicitados:<textarea name="estudios" required></textarea></label>
+
+
+<button type="submit">Generar Resultado</button>
+</form>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
